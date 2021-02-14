@@ -1,0 +1,22 @@
+{
+	"XDELTA":
+	{
+		"Banner": [".bcwav", ".cbmd", ".cgfx"],
+		"ExeFS": [".bin"],
+		"Manual": [".bcma"],
+		"Font": [".bcfnt"],
+		"Layout": [".arc"],
+		"Param": [".bin"],
+		"Shader": [".shbin"]
+	},
+	"PARENT":
+	{
+		"Banner": "ExtractedBanner",
+		"ExeFS": "ExtractedExeFS",
+		"Manual": "ExtractedManual",
+		"Font": "ExtractedRomFS/data/Font",
+		"Layout": "ExtractedRomFS/data/Layout",
+		"Param": "ExtractedRomFS/data/Param",
+		"Shader": "ExtractedRomFS/data/shader"
+	}
+}
